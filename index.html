@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="logo">MY<span>PORTFOLIO.</span></a>
+
+        <ul class="nav-links">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <button id="themeToggle" class="theme-btn"
+            aria-label="Toggle dark and light mode">☀ / ☾</button>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="hero-text">
+            <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+            <h1>Hello, I'm <span>Mark Elyvan Tiongson</span></h1>
+            <h2>BSIT 21008</h2>
+            <p>
+                Welcome to my personal portfolio! This website showcases
+                my background, skills, and activities throughout my studies.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="projects.html" class="btn">Explore My Projects</a>
+                <button class="btn btn-outline" id="welcomeBtn">
+                    Say Hello
+                </button>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="c:\Users\Amydiamni Roslan\Downloads\2fcb0ba4-abf3-4d50-b657-1d8562e56402.jpg"
+                 alt="My Profile Picture"
+                 onerror="this.style.display='none';
+                 this.nextElementSibling.style.display='flex';">
+            <div class="image-placeholder">
+                <span>YOUR PHOTO HERE</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="section intro-section">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>Welcome to My <span>Personal Website</span></h2>
+        <p>
+            I am a student who enjoys learning new things, exploring
+            technology, and improving my skills. Browse my portfolio
+            to learn more about me and my school projects.
+        </p>
+        <a href="about.html" class="text-link">Learn More About Me →</a>
+    </section>
+
+    <section class="section">
+        <div class="section-heading">
+            <p class="eyebrow">WHAT YOU CAN FIND</p>
+            <h2>Explore My Portfolio</h2>
+        </div>
+
+        <div class="card-grid">
+            <a href="about.html" class="card">
+                <div class="card-icon">01</div>
+                <h3>About Me</h3>
+                <p>Learn about my background, education, and interests.</p>
+            </a>
+
+            <a href="skills.html" class="card">
+                <div class="card-icon">02</div>
+                <h3>My Skills</h3>
+                <p>Discover my technical and personal skills.</p>
+            </a>
+
+            <a href="projects.html" class="card">
+                <div class="card-icon">03</div>
+                <h3>My Projects</h3>
+                <p>Explore the activities I completed in ITE 1.</p>
+            </a>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>© <span id="year"></span> Mark Elyvan Tiongson. All Rights Reserved.</p>
+    <p>Designed by Mark Elyvan Tiongson | ITE 1 Portfolio</p>
+</footer>
+
+<button id="backToTop" aria-label="Back to top">↑</button>
+
+</body>
+</html>

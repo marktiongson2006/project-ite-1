@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="logo">MY<span>PORTFOLIO.</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button id="themeToggle" class="theme-btn"
+            aria-label="Toggle dark and light mode">☀ / ☾</button>
+    </nav>
+</header>
+
+<main class="page-container">
+    <section class="page-heading">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h1>About <span>Me</span></h1>
+        <p>A little information about who I am.</p>
+    </section>
+
+    <section class="about-layout">
+        <div class="about-photo">
+            <img src="c:\Users\Amydiamni Roslan\Downloads\2fcb0ba4-abf3-4d50-b657-1d8562e56402.jpg" alt="My profile photo">
+        </div>
+
+        <div class="about-content">
+            <h2>Hi, I'm Mark Elyvan Tiongson!</h2>
+            <p>
+                I am a student at Bestlink College of the Philippines, currently taking
+                BSIT and First Year College
+            </p>
+            <p>
+                I am interested in Computer. I enjoy learning
+                new skills, working on school activities, and developing
+                my knowledge in technology.
+            </p>
+
+            <button class="btn" id="readMoreBtn">Read More</button>
+
+            <div id="moreInfo" class="more-info hidden">
+                <p><strong>Full Name:</strong>Mark Elyvan Tiongson</p>
+                <p><strong>Age:</strong> 19</p>
+                <p><strong>Address:</strong> Caloocan City</p>
+                <p><strong>Birthday:</strong> 10-22-2006</p>
+                <p><strong>Hobbies:</strong> Playing Guitar</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-heading">
+            <p class="eyebrow">MY BACKGROUND</p>
+            <h2>Education</h2>
+        </div>
+
+        <div class="card-grid">
+            <div class="card">
+                <div class="card-icon">01</div>
+                <h3>Elementary</h3>
+                <p>School: Camarin D Elementary School</p>
+                <p>Year Graduated: 2019</p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">02</div>
+                <h3>Senior High School</h3>
+                <p>St. Vincent De Ferrer College</p>
+                <p>Year Graduated: 2025</p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">03</div>
+                <h3>College</h3>
+                <p>School: Bestlink College of the Philippines</p>
+                <p>Course: BSIT 21008</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>© <span id="year"></span> Mark Elyvan Tiongson. All Rights Reserved.</p>
+</footer>
+<button id="backToTop" aria-label="Back to top">↑</button>
+</body>
+</html>

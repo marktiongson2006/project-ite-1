@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    // 1. WELCOME MESSAGE
     const welcomeBtn = document.getElementById("welcomeBtn");
 
     if (welcomeBtn) {
